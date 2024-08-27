@@ -1,2 +1,2 @@
 # yoga-day-certification-program-
-yoga day certification is a program which was held by tech indro. using Html, Css and Javascript,It has made for some basic task to interact &amp; collaborate with the audience and to grow niche on my instagram profile to make better 
+yoga day certification is a program which was held by tech indro and integrated using Html, Css and Javascript, I have personally made it for interaction to the audience and brands collaboration to make better niche on my instagram profile 
