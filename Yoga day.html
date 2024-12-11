@@ -1,72 +1,103 @@
-<html>
-    <head>
-        <style type='text/css'>
-            body, html {
-                margin: 0;
-                padding: 0;
-            }
-            body {
-                color: black;
-                display: table;
-                font-family: Georgia, serif;
-                font-size: 24px;
-                text-align: center;
-            }
-            .container {
-                border: 20px solid tan;
-                width: 750px;
-                height: 563px;
-                display: table-cell;
-                vertical-align: middle;
-            }
-            .logo {
-                color: tan;
-            }
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Completion</title>
+    <style type='text/css'>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Georgia, serif;
+            color: black;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            border: 20px solid tan;
+            width: 80%;
+            max-width: 700px;
+            height: auto;
+            margin: 30px auto;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .logo img {
+            border-radius: 50%;
+            width: 120px; /* Adjust size as needed */
+            height: 120px; /* Adjust size as needed */
+            object-fit: cover;
+            border: 5px solid tan; /* Optional: border to match the certificate */
+        }
+        .logo div {
+            color: tan;
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 10px;
+            text-transform: lowercase;
+        }
+        .marquee {
+            color: tan;
+            font-size: 36px;
+            font-weight: bold;
+            margin: 20px 0;
+            text-transform: lowercase;
+        }
+        .assignment {
+            margin: 15px 0;
+            font-size: 20px;
+        }
+        .person {
+            border-bottom: 2px solid black;
+            font-size: 28px;
+            font-style: italic;
+            margin: 15px auto;
+            width: 80%;
+            max-width: 350px;
+        }
+        .reason {
+            margin: 15px 0;
+            font-size: 20px;
+        }
+        @media (max-width: 600px) {
             .marquee {
-                color: tan;
-                font-size: 48px;
-                margin: 20px;
-            }
-            .assignment {
-                margin: 20px;
+                font-size: 24px;
             }
             .person {
-                border-bottom: 2px solid black;
-               font-size: 32px;
-                font-style: italic;
-                margin: 20px auto;
-                width: 400px;
+                font-size: 20px;
             }
-            .reason {
-                margin: 20px;
+            .reason, .assignment {
+                font-size: 16px;
             }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="logo">
-                tech indro
-            </div>
-            <img src="https://i.postimg.cc/6q8tk6qM/yogaday.png" alt="techindro">
-
-            <div class="marquee">
-                Certificate of Completion
-            </div>
-
-            <div class="assignment">
-                This certificate is presented to
-            </div>
-
-            <div class="person">
-                Puru shekhawat
-            
-            </div>
-
-            <div class="reason">
-                has completed successfully yoga session 2024<br/>
-               which was held by tech indro
-            </div>
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://i.postimg.cc/6q8tk6qM/yogaday.png" alt="Yoga Day Certificate">
+            <div>tech indro</div>
         </div>
-    </body>
+        <div class="marquee">
+            certificate of completion
+        </div>
+        <div class="assignment">
+            this certificate is presented to
+        </div>
+        <div class="person">
+            Shishira Raghunath
+        </div>
+        <div class="reason">
+            for successfully completing the Yoga Session 2024<br>
+            held by Tech Indro
+        </div>
+    </div>
+</body>
 </html>
