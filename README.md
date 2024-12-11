@@ -1,4 +1,4 @@
-# Yoga-day-certification-program-
+#🧘‍♀️ Yoga-day-certification-program-
 
 Event Summary: International Yoga Day Selfie Program I am excited to announce that I organized a successful event for International Yoga Day on June 21, 2024, which was shared across my social media platforms. The event, titled "Yoga Day Free Certificate Program," attracted an impressive engagement of approximately 2.5 to 3 lakh participants, with 123 individuals actively participating from cities including Bengaluru, New Delhi, Kolkata, and Maharashtra.
 
