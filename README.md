@@ -26,5 +26,3 @@ Thank you for your attention!
 Follow us for the source code: 🚀
 Tech Indro Telegram Channel
 
-"Empowering dreams, coding a better tomorrow for a stronger India." 🇮🇳🫡
-— Tech Indro
